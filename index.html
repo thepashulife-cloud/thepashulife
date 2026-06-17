@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>The Pashu Life</title>
+    <meta charset="utf-8">
+    <title>The Pashu Life</title>
 
-<script>
-window.location.href = "vnd.youtube://channel/@thepashulife";
+    <script>
+        // YouTube App खोलने की कोशिश
+        window.location.replace("vnd.youtube://www.youtube.com/@thepashulife");
 
-setTimeout(function() {
-    window.location.href = "https://www.youtube.com/@thepashulife";
-}, 1000);
-</script>
+        // App न खुले तो Website पर भेज दो
+        setTimeout(function () {
+            window.location.replace("https://www.youtube.com/@thepashulife");
+        }, 1500);
+    </script>
 
 </head>
 <body>
-Redirecting to YouTube...
+    Opening YouTube...
 </body>
 </html>
